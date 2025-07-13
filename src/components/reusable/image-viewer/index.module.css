@@ -1,0 +1,100 @@
+.thumbnail {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.thumbnailImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.fullscreenImageContainer {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  max-width: 1000px;
+  max-height: 800px;
+  animation: zoomIn 0.3s ease-in-out;
+}
+
+.fullscreenImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+  cursor: zoom-in;
+  touch-action: none;
+}
+
+.fullscreenImageContainer:active .fullscreenImage {
+  transform: scale(1.5);
+  cursor: zoom-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.7);
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.zoomOut {
+  animation: zoomOut 0.3s ease-in-out forwards;
+}
