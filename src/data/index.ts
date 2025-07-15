@@ -4,8 +4,8 @@ const website =
 export const about = {
   name: 'Hadi Al Salah',
   description:
-    "Master’s holding in data science, experienced certified procurement manager and experienced in market intelligence who's been actively involved in large language model, machine learning and deep learning projects.",
-  role: 'Data Scientist',
+    "Master’s holding in data science, experienced certified procurement manager and experienced in market intelligence & insights who's been actively involved in large language model, machine learning, deep learning projects and visualization projects.",
+  role: 'Data Analytics & Insights Specialist',
   website,
   photo: `/images/about/photo.jpg`,
   phone: '+966 58 320 6145',
@@ -39,14 +39,18 @@ export const expreriences = [
     is_current: true,
   },
   {
+    role: ' Power BI Data Visualization Specialist',
+    company: 'Freelance (Upwork)',
+    description:
+      'Transformed complex data into actionable insights through compelling dashboards and reports. This involves designing and developing interactive Power BI solutions, optimizing data models, and collaborating with stakeholders to ensure visual analytics directly support strategic decision-making and drive business performance. They are adept at translating data into clear, impactful narratives that empower users and foster a data-driven culture.',
+    date: '08/2025 - PRESENT',
+    is_current: true,
+  },
+  {
     role: 'Analytics & Insights Manager',
     company: 'Procter & Gamble',
     description:
-      '- Drove execution excellence by identifying 0.6 MUSD opportunity and established its action plan.\
-      - Built a local data hub and transformed key performance dashboards into Power Bi.\
-      - Developed multi-linear regression model to forecast products sales.\
-      - Conducted products analysis to diagnose performance and drive growth.\
-      - Mined market insights basis data that drive Business growth.',
+      'Drove execution excellence by identifying a $0.6M opportunity and establishing its action plan. I built a local data hub and transformed key performance dashboards into Power BI, while also developing a multi-linear regression model for sales forecasting. My work involved conducting in-depth product analysis to diagnose performance and generate growth, alongside mining critical market insights to directly fuel business expansion.',
     date: '01/2025 - 07/2025',
     is_current: false,
   },
@@ -54,9 +58,7 @@ export const expreriences = [
     role: 'Sr. Buyer',
     company: 'Exiros',
     description:
-      '- Improved liquidity of supply for critical materials generating a potential saving of 0.5 MUSD/year.\
-      - Improved on time delivery KPI of critical materials from 70% to 95%.\
-      - Improved supply chain security of critical materials by qualifying local suppliers with competitive economical position.',
+      'I significantly improved the liquidity of supply for critical materials, generating a potential annual savings of $0.5M and boosting on-time delivery from 70% to 95%. This was achieved by qualifying competitive local suppliers, thereby enhancing overall supply chain security.',
     date: '05/2023 - 01/2025',
     is_current: false,
   },
@@ -64,12 +66,7 @@ export const expreriences = [
     role: 'Sr. Market Intelligence Analyst',
     company: 'Tenaris',
     description:
-      "- Analyzed sales segments and initiated market share increasing plan.\
-      - Analyzed the Market dynamics, competitors' behavior and Tenaris' impact and positioning .\
-      - Monitored and analyzed Aramco’s activities.\
-      - Analyzed O&G market and identified potential market. \
-      Carried out BU management control, interacted and collaborated with BU Management. \
-      Issued reports to the company management with conclusions and proposed plan actions.",
+      "Executed comprehensive market and sales analysis, identifying a $0.6M opportunity and developing an action plan to increase market share. This involved deep dives into market dynamics, competitor behavior, and industry giants like Tenaris and Aramco, coupled with O&G market opportunity identification. I further developed a multi-linear regression model for sales forecasting, transformed key performance dashboards into Power BI, and managed business unit controls, ultimately issuing strategic reports and actionable plans to company management to drive growth.",
     date: '08/2021 - 04/2023',
     is_current: false,
   },
@@ -77,7 +74,7 @@ export const expreriences = [
     role: 'Buyer',
     company: 'Exiros',
     description:
-      'Achieved Savings of 150+ kUSD /year through the issued contracts.\nNegotiated and issued 35+ contracts to smoothen the procurement process in Tenaris.\nAnalyzed purchase requests and identify trends to launch frame agreements to increase the system efficiency.\nMastered the new system and acted as technical leader for the team.\nFirst to successfully implement the procurement new system.',
+      'Successfully achieved over $150K in annual savings by negotiating and issuing 35+ contracts, significantly streamlining procurement processes. I further enhanced system efficiency by analyzing purchase requests and identifying trends to launch strategic frame agreements. As the technical leader for the procurement team, I mastered and was the first to successfully implement a new procurement system, driving operational excellence.',
     date: '01/2020 - 07/2021',
     is_current: false,
   },
@@ -100,33 +97,29 @@ export const educations = [
 
 export const projects = [
   {
-    name: 'Sales Fundemntals Dashboard',
+    name: 'Sales Fundemntals Dashboard (02/2025)',
     description:
       'Developed a Power BI dashboard to track key product fundamentals, enabling data-driven execution and operational excellence.',
   },
   {
     name: 'KSA Logistics Oriented Large Language Model (08/2023 - 05/2024)',
     description:
-      '- Fine-tuned LLM on Saudi based logistics company to identify bottlenecks, room of improvements, generate reports and recommendations to improve the company performance.\
-      - Developed user friendly interface for the model to allow top management to generate the desired reports and recommendations effectively.',
+      'Fine-tuned an LLM for a Saudi-based logistics company, pinpointing bottlenecks and improvement areas. Developed a user-friendly interface enabling top management to generate reports and recommendations, significantly enhancing company performance.',
   },
   {
     name: 'Product Market Scouting (01/2022 - 06/2022)',
     description:
-      "- Cleaned and Analyzed 3rd Party DB through PowerBI to identify current and future customers' projects.\
-      - Identified the potential market for specific products of the company portfolio to increase its market share.",
+      "Cleaned and analyzed a third-party database using Power BI to identify current and future customer projects, successfully pinpointing potential markets for specific company products and increasing market share.",
   },
   {
     name: 'Visualization of Pipes Worldwide Trade Database (11/2021 - 12/2021)',
     description:
-      '- Cleaned an acquired 3rd party database and identify trends through the data wrangling process.\
-      - Performed data analysis through PowerBI to draw conclusions on how the pipes trading affecting the company market share within the country and worldwide.',
+      'Cleaned and performed data wrangling on an acquired third-party database to identify critical trends. Through Power BI analysis, drew key conclusions on the impact of pipes trading on the company market share, both domestically and internationally.',
   },
   {
     name: "Data Visualization of Tenaris' Sales (09/2021 - 10/2021)",
     description:
-      '- Cleanse and maintain the company sales database.\
-      - Identify trends and correlate them to market news to integrate both company performance and market context.\n',
+      'Managed and cleansed the company sales database, identifying key trends and correlating them with market news to provide a holistic view of company performance within the broader market context.',
   },
 ];
 
