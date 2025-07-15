@@ -88,7 +88,7 @@ export const educations = [
     degree: "Master's Degree in Data Science and Analytics",
     school: 'King Fahd University of Petroleum and Minerals',
     date: '2022 - 2024',
-    courses: ['- Big Data Analytics', '- Machine Learning & Deep Learning', '- Statistical Modeling', '- Forecasting Methods'],
+    courses: ['Big Data Analytics', 'Machine Learning & Deep Learning', 'Statistical Modeling', 'Forecasting Methods'],
   },
   {
     degree: 'Bachlor of Science in Electrical Engineering',
@@ -99,6 +99,11 @@ export const educations = [
 ];
 
 export const projects = [
+  {
+    name: 'Sales Fundemntals Dashboard',
+    description:
+      'Developed a Power BI dashboard to track key product fundamentals, enabling data-driven execution and operational excellence.',
+  },
   {
     name: 'KSA Logistics Oriented Large Language Model (08/2023 - 05/2024)',
     description:
@@ -147,5 +152,41 @@ export const skills = {
       description: '',
       link: 'https://www.sap.com',
     },
+    {
+      name: 'Knime',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Power BI',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Tableau',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Data Visualization',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Data Anlaytics',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Market Research',
+      description: '',
+      link: '',
+    },
+    {
+      name: 'Business Intelligence',
+      description: '',
+      link: '',
+    },
+    
   ],
 };
