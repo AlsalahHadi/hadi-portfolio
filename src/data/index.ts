@@ -30,14 +30,6 @@ export const tabs = [
 ];
 
 export const expreriences = [
-    {
-    role: 'Data Analysis Specialist',
-    company: 'Saudi Water Authority',
-    description:
-      'Answered business questions by data driven analysis',
-    date: '08/2025 - PRESENT',
-    is_current: true,
-  },
   {
     role: ' Power BI Data Visualization Specialist',
     company: 'Freelance (Upwork)',
@@ -51,14 +43,14 @@ export const expreriences = [
     company: 'Procter & Gamble',
     description:
       'Drove execution excellence by identifying a $0.6M opportunity and establishing its action plan. I built a local data hub and transformed key performance dashboards into Power BI, while also developing a multi-linear regression model for sales forecasting. My work involved conducting in-depth product analysis to diagnose performance and generate growth, alongside mining critical market insights to directly fuel business expansion.',
-    date: '01/2025 - 07/2025',
-    is_current: false,
+    date: '01/2025 - PRESENT',
+    is_current: true,
   },
   {
     role: 'Sr. Buyer',
     company: 'Exiros',
     description:
-      'I significantly improved the liquidity of supply for critical materials, generating a potential annual savings of $0.5M and boosting on-time delivery from 70% to 95%. This was achieved by qualifying competitive local suppliers, thereby enhancing overall supply chain security.',
+      'Significantly improved the liquidity of supply for critical materials, generating a potential annual savings of $0.5M and boosting on-time delivery from 70% to 95%. This was achieved by qualifying competitive local suppliers, thereby enhancing overall supply chain security.',
     date: '05/2023 - 01/2025',
     is_current: false,
   },
@@ -91,7 +83,7 @@ export const educations = [
     degree: 'Bachlor of Science in Electrical Engineering',
     school: 'King Fahd University of Petroleum and Minerals',
     date: '2014 - 2019',
-    courses: ['2nd place in Senior Design Expo', 'TOEFL - iBT: 527/677'],
+    courses: ['2nd place in Senior Design Expo', 'TOEFL iBT: 527/677'],
   },
 ];
 
